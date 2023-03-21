@@ -1,7 +1,7 @@
 package org.example;
 
 class PhotoAlbum {
-    private int numberOfPages;
+    private final int numberOfPages;
 
     public PhotoAlbum(int numberOfPages) {
         this.numberOfPages = numberOfPages;
@@ -17,7 +17,7 @@ class PhotoAlbum {
 }
 
 class BigPhotoAlbum{
-    private int numberOfPages;
+    private final int numberOfPages;
 
     public BigPhotoAlbum() {
         this.numberOfPages = 64;
