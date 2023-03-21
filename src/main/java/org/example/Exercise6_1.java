@@ -31,7 +31,7 @@ class Student extends Person{
 
 }
 
-public class Main {
+public class Exercise6_1 {
     public static void main(String[] args) {
         Person person=new Person();
         person.greet();
